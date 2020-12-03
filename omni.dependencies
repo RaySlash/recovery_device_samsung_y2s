@@ -1,8 +1,8 @@
 [
 	{
 		"remote":"github",
-		"repository":"gta4xl/android_kernel_samsung_gta4xl",
-		"target_path":"kernel/samsung/gta4xl",
-		"revision":"android-10.0"
+		"repository":"JosipKC/android_kernel_samsung_universal9830",
+		"target_path":"kernel/samsung/universal9830",
+		"revision":"lineage-17.1-experimental"
 	}
 ]
