@@ -129,3 +129,6 @@ RECOVERY_SDCARD_ON_DATA := true
 TW_NO_LEGACY_PROPS := true
 
 TW_THEME := portrait_hdpi
+
+# init.recovery.usb.rc
+TW_EXCLUDE_DEFAULT_USB_INIT := true
