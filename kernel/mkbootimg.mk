@@ -16,11 +16,10 @@ LOCAL_PATH := $(call my-dir)
 
 MKDTIMG    := $(HOST_OUT_EXECUTABLES)/mkdtimg$(HOST_EXECUTABLE_SUFFIX)
 KERNEL_OUT := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ
-DTB_DIR    := $(KERNEL_OUT)/arch/$(KERNEL_ARCH)/boot/dts/exynos
-DTBO_DIR   := $(KERNEL_OUT)/arch/$(KERNEL_ARCH)/boot/dts/samsung
+DTB_DIR    := $(KERNEL_OUT)/arch/$(KERNEL_ARCH)/boot/dts/exynos9830
+DTBO_DIR   := $(KERNEL_OUT)/arch/$(KERNEL_ARCH)/boot/dts/y2s
 DTB_CFG    := $(DEVICE_PATH)/kernel/$(TARGET_SOC).cfg
 DTBO_CFG   := $(DEVICE_PATH)/kernel/$(TARGET_DEVICE).cfg
-
 INSTALLED_DTBIMAGE_TARGET := $(PRODUCT_OUT)/dtb.img
 INSTALLED_DTBOIMAGE_TARGET := $(PRODUCT_OUT)/dtbo.img
 
