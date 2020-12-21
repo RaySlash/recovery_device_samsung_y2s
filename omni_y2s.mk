@@ -17,10 +17,10 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_x1s
-PRODUCT_DEVICE := x1s
+PRODUCT_NAME := omni_y2s
+PRODUCT_DEVICE := y2s
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G980F
+PRODUCT_MODEL := SM-G986B
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 29
 

@@ -15,7 +15,7 @@
 
 BUILD_TOP := $(shell pwd)
 
-DEVICE_PATH := device/samsung/x1s
+DEVICE_PATH := device/samsung/y2s
 
 ### BOARD
 TARGET_BOARD_PLATFORM := universal990
@@ -24,7 +24,7 @@ TARGET_BOOTLOADER_BOARD_NAME := exynos9830
 TARGET_BOARD_PLATFORM_GPU := mali-g77
 PRODUCT_PLATFORM := exynos990
 
-TARGET_OTA_ASSER_DEVICE := x1s,x1sxx 
+TARGET_OTA_ASSER_DEVICE := y2s,y2sxx
 
 TARGET_NO_BOOTLOADER := true
 
@@ -46,7 +46,7 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 ### KERNEL
 TARGET_KERNEL_SOURCE = kernel/samsung/universal9830/
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CONFIG := exynos9830-x1slte_defconfig
+TARGET_KERNEL_CONFIG := exynos9830-y2sxxx_defconfig
 
 BOARD_CUSTOM_BOOTIMG         := true
 BOARD_CUSTOM_BOOTIMG_MK      := $(DEVICE_PATH)/kernel/mkbootimg.mk
