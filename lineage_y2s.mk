@@ -15,9 +15,9 @@
 #
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common.mk)
 
-PRODUCT_NAME := omni_y2s
+PRODUCT_NAME := lineage_y2s
 PRODUCT_DEVICE := y2s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G986B

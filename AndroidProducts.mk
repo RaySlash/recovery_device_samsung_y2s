@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_y2s.mk
+    $(LOCAL_DIR)/lineage_y2s.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_y2s-eng
+    lineage_y2s-eng
